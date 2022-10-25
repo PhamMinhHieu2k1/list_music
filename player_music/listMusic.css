@@ -1,0 +1,64 @@
+    .list-music {
+        height: auto;
+        margin-top: 460px;
+        background-color: rgb(228, 227, 227);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .item-music {
+        position: relative;
+        margin: 5px 0;
+        width: 400px;
+        height: 70px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .item-music:hover {
+        background-color: azure;
+    }
+    
+    .item-music.active {
+        background-color: azure;
+    }
+    
+    .img-list-music {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-size: cover;
+        margin: 0 8px;
+        margin-top: 10px;
+    }
+    
+    .infor-MS {
+        margin: 12px 30px 0px 30px;
+    }
+    
+    .name-music {
+        font-size: 20px;
+        font-weight: 1500;
+        margin: 0;
+        letter-spacing: 2px;
+    }
+    
+    .singer-music {
+        margin-top: 5px;
+    }
+    
+    .option-music {
+        position: absolute;
+        background-image: url(./assets/icon/ellipsis-h-solid.svg);
+        height: 20px;
+        width: 20px;
+        right: 20px;
+        top: 25px;
+    }
+    
+    .option-music:hover {
+        background-color: rgb(215, 213, 213);
+    }

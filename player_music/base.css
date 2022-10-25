@@ -1,0 +1,29 @@
+@import url(./index.css);
+@import url(./listMusic.css);
+body {
+    font-size: 13px;
+    font-family: GGSANS-Regular;
+    box-sizing: border-box;
+    height: auto;
+    width: 450px;
+    border: 2px solid black;
+    margin: 0;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: GGSANS-Regular;
+    src: url(../../assets/font/GoogleSans-Regular.otf);
+}
+
+@font-face {
+    font-family: GGSANS-Bold;
+    src: url(../../assets/font/GoogleSans-Bold.otf);
+}
+
+@font-face {
+    font-family: GGSANS-Italic;
+    src: url(../../assets/font/GoogleSans-Italic.otf);
+}

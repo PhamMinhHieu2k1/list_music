@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/font/fontawesome-5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./base.css">
+
+</head>
+
+<body>
+    <div class="player-card">
+        <div class="header-music">
+            <h2>Now playing</h2>
+            <h4>String 57th & 9th</h4>
+        </div>
+        <div class="img-music" style="background-image: url(./assets/img/AcMa.jfif);">
+
+
+        </div>
+
+        <div class="control-music">
+            <div class="btn replay-music">
+            </div>
+            <div class="btn back-music">
+            </div>
+            <div class="toggle-music">
+                <div class="btn play-music "></div>
+                <div class="btn pause-music active"></div>
+            </div>
+            <div class="btn next-music">
+            </div>
+            <div class="btn random-music ">
+            </div>
+
+        </div>
+        <input type="range" id="progress" value="0" step="1" min="0" max="100">
+        <audio src="" id="audio"></audio>
+    </div>
+    <div class="list-music">
+        <!--  <div class="item-music">
+            <div class="img-list-music" style="background-image: url(${song.image}) ;">
+
+            </div>
+            <div class="infor-MS">
+                <h3 class="name-music">${song.name}</h3>
+                <p class="singer-music">${song.author}</p>
+            </div>
+            <div class="option-music">
+
+            </div>
+        </div> -->
+    </div>
+    <script src="./js/index_js.js"></script>
+</body>
+
+</html>

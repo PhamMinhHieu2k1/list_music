@@ -1,0 +1,97 @@
+.player-card {
+    border-radius: 10px;
+    position: fixed;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 446px;
+    background-color: aliceblue;
+    z-index: 1;
+    padding-bottom: 15px;
+}
+
+
+/* ảnh xoay */
+
+.img-music {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+
+/*  */
+
+h2 {
+    color: rgb(215, 97, 162);
+    font-size: 15px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.control-music {
+    display: flex;
+}
+
+.btn {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    padding: 5px;
+    margin: 0px 20px;
+}
+
+
+/* các nút điều khiển */
+
+.replay-music {
+    background-image: url(./assets/icon/redo-alt-solid.svg);
+}
+
+.back-music {
+    background-image: url(./assets/icon/step-backward-solid.svg);
+}
+
+.play-music {
+    background-image: url(./assets/icon/play-circle-solid.svg);
+}
+
+.pause-music {
+    background-image: url(./assets/icon/pause-circle-solid.svg);
+}
+
+.active {
+    display: none;
+}
+
+.next-music {
+    background-image: url(./assets/icon/step-forward-solid.svg);
+}
+
+.random-music {
+    background-image: url(./assets/icon/random-solid.svg);
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.relay {
+    border: 1px solid red;
+}
+
+
+/* chạy bài hát */
+
+#progress {
+    width: 350px;
+    margin-top: 10px;
+}
